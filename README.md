@@ -15,6 +15,13 @@ This repository contains the final project for the course `CS/CE 316/365 Introdu
 - **Final Report:** _Yet to Start_
 
 ---
+
+#### Work Files
+
+- [Literature Sources Document](https://habibuniversity-my.sharepoint.com/:w:/r/personal/aa07190_st_habib_edu_pk/_layouts/15/Doc.aspx?sourcedoc=%7BF8F97C43-E2C4-4557-AB8C-698C9C07E2F9%7D&file=Literature%20Review%20-%20Compilation.docx&action=default&mobileredirect=true)
+- [List of Pashto Poets](https://habibuniversity-my.sharepoint.com/:w:/r/personal/aa07190_st_habib_edu_pk/_layouts/15/Doc.aspx?sourcedoc=%7BFE9264B8-4A6C-47AA-BB06-115A401B9981%7D&file=Pashto%20Poets.docx&action=default&mobileredirect=true)
+
+---
 #### Contributors:
 - Ali Muhammad Asad
 - Lyeba Abid
