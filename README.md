@@ -18,6 +18,7 @@ This repository contains the final project for the course `CS/CE 316/365 Introdu
 
 #### Work Files
 
+- [Collective OneDrive Link](https://habibuniversity-my.sharepoint.com/my?login_hint=aa07190%40st%2Ehabib%2Eedu%2Epk&id=%2Fpersonal%2Faa07190%5Fst%5Fhabib%5Fedu%5Fpk%2FDocuments%2FDeep%20Learning%20Project)
 - [Literature Sources Document](https://habibuniversity-my.sharepoint.com/:w:/r/personal/aa07190_st_habib_edu_pk/_layouts/15/Doc.aspx?sourcedoc=%7BF8F97C43-E2C4-4557-AB8C-698C9C07E2F9%7D&file=Literature%20Review%20-%20Compilation.docx&action=default&mobileredirect=true)
 - [List of Pashto Poets](https://habibuniversity-my.sharepoint.com/:w:/r/personal/aa07190_st_habib_edu_pk/_layouts/15/Doc.aspx?sourcedoc=%7BFE9264B8-4A6C-47AA-BB06-115A401B9981%7D&file=Pashto%20Poets.docx&action=default&mobileredirect=true)
 
