@@ -5,9 +5,9 @@ This repository contains the final project for the course `CS/CE 316/365 Introdu
 ---
 #### Project Status:
 
-- **Literature Review:** In Progress
+- **Literature Review:** Done
 - **Data Collection:** In Progress
-- **Data Preprocessing:** _Yet to Start_
+- **Data Preprocessing:** In Progress
 - **Model Development:** _Yet to Start_
 - **Model Training:** _Yet to Start_
 - **Model Evaluation:** _Yet to Start_
