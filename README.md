@@ -26,6 +26,7 @@ This repository contains the final project for the course `CS/CE 316/365 Introdu
 #### Dataset Details:
 
 | **Poet** | **Couplet Count** |
+| --- | --- |
 | Abbasin Yousuf | 117 |
 | Ghani Khan | 281 |
 | Hamza Baba | 1287 |
