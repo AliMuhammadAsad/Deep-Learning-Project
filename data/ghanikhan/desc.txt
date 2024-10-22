@@ -1,4 +1,1 @@
-Poetry Count: 21
-Couplet Count: 294
-
-source: https://ghanikhan.wordpress.com/wp-content/uploads/2005/12/ghanikhan_poetry.pdf
+Couplets Count: 281
