@@ -28,6 +28,7 @@ This repository contains the final project for the course `CS/CE 316/365 Introdu
 | **Poet** | **Couplet Count** |
 | --- | --- |
 | Abbasin Yousuf | 117 |
+| Aziz Mazerwal | 30 |
 | Ghani Khan | 281 |
 | Hamza Baba | 1287 |
 | Khaliq Ziari | 40 |
@@ -40,7 +41,7 @@ This repository contains the final project for the course `CS/CE 316/365 Introdu
 | Sahib Shah Sabir | 1053 |
 | Salim Riaz | 248 |
 
-**Total Couplets: 15144**
+**Total Couplets: 15174**
 
 ---
 #### Contributors:
