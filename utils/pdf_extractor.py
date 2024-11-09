@@ -15,7 +15,7 @@ if not os.path.exists(OUTPUT_TXT):
 
 
 # Path to your service account key (JSON file) for Google Cloud Vision
-credentials_path = "testing-project-438410-37afea7eac69.json"
+credentials_path = "testing-project-438410-bf19bddc0c07.json"
 credentials = service_account.Credentials.from_service_account_file(credentials_path)
 
 # Initialize Google Cloud Vision client

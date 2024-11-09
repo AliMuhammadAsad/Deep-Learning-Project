@@ -10,7 +10,7 @@ if __name__ == '__main__':
 
     # Remove all English characters (a-z, A-Z) using regex
     cleaned_text = re.sub(r'[a-zA-Z]', '', text)
-    # cleaned_text = re.sub(r'[\\/\(\)|\[\]{}]', '', cleaned_text)
+    cleaned_text = re.sub(r'[\\/\(\)|\[\]{}]', '', cleaned_text)
     # remove numbers as well
     cleaned_text = re.sub(r'[1234567890]', '', cleaned_text)
 
