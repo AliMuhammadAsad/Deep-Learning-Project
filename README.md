@@ -28,6 +28,7 @@ This repository contains the final project for the course `CS/CE 316/365 Introdu
 | **Poet** | **Couplet Count** |
 | --- | --- |
 | Abbasin Yousuf | 1875 |
+| Ajmal Khattak | 780 |
 | Aziz Mazerwal | 30 |
 | Ghani Khan | 278 |
 | Hamza Baba | 1177 |
