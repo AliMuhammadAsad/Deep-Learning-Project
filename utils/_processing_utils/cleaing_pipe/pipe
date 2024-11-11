@@ -1,0 +1,14 @@
+#!/usr/bin/bash
+
+python_files=("english_remover.py" "wsremover.py" "shortlineremover.py" "lineremover.py" "remove_duplicates.py" "couplet_counter.py")
+
+echo "Enter the file name: " 
+read filename
+
+for script in "${python_files[@]}"; do
+    if [ -f "$script" ]; then
+        echo "$filename" | python3 "$script"
+    else
+        echo "File not found or script not available: $script"
+    fi
+done
