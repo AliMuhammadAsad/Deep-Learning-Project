@@ -42,7 +42,7 @@ This repository contains the final project for the course `CS/CE 316/365 Introdu
 | Naeem Ahmed | 856 |
 | Rabia Mumtaz | 572 |
 | Rahman Baba | 2202 |
-| Rehmat Shah | 485 |
+| Rehmat Shah | 1534 |
 | Sahib Shah Sabir | 1051 |
 | Salim Riaz | 232 |
 
