@@ -25,8 +25,8 @@ This repository contains the final project for the course `CS/CE 316/365 Introdu
 ---
 #### Dataset Details:
 
-| **Poet** | **Couplet Count** |
-| --- | --- |
+| **No.** | **Poet** | **Couplet Count** |
+| --- | --- | --- |
 | Abbasin Yousuf | 1875 |
 | Ajmal Khattak | 780 |
 | Allama Abdul Hai | 2380 |
@@ -51,7 +51,7 @@ This repository contains the final project for the course `CS/CE 316/365 Introdu
 | Shakir Orakzai | 569 |
 | Salim Riaz | 232 |
 
-**Total Couplets: 22426**
+**Total Couplets: 26992**
 
 ---
 #### Contributors:
