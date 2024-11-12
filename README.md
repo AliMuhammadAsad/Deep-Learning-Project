@@ -50,6 +50,7 @@ This repository contains the final project for the course `CS/CE 316/365 Introdu
 | 21 | Shabbir Khan Durrani | 1056 |
 | 22 | Shakir Orakzai | 569 |
 | 23 | Salim Riaz | 232 |
+| 24 | Shoaib Khan Khattak | 615 |
 
 **Total Couplets: 26992**
 
