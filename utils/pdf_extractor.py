@@ -7,7 +7,8 @@ import re
 from google.cloud import vision
 from google.oauth2 import service_account
 
-OUTPUT_TXT = '.txt'  # Path to the output text file
+INPUT_PDF = input("Enter input file (with .pdf): ")  # Path to the input PDF file
+OUTPUT_TXT = input("Enter output file (with .txt): ")  # Path to the output text file
 
 # create the file if it does not exist
 if not os.path.exists(OUTPUT_TXT):
@@ -52,9 +53,6 @@ def remove_page_numbers(text):
 def extract_page_number(filename):
     match = re.search(r'(\d+)', filename)
     return int(match.group(0)) if match else -1  # Return the number found in the filename, or -1 if no number is found
-
-
-INPUT_PDF = '.pdf'  # Path to the input PDF file
 
 # Convert the PDF to images
 images = convert_from_path(INPUT_PDF)
