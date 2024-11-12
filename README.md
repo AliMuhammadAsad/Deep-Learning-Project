@@ -29,12 +29,15 @@ This repository contains the final project for the course `CS/CE 316/365 Introdu
 | --- | --- |
 | Abbasin Yousuf | 1875 |
 | Ajmal Khattak | 780 |
+| Allama Abdul Hai | 2380 |
 | Aziz Mazerwal | 30 |
 | Ghani Khan | 1399 |
 | Hamza Baba | 1177 |
+| Javed Ahmedzai | 561 |
 | Karan Khan | 979 |
 | Khaliq Ziari | 40 |
 | Khatir Afridi | 1436 |
+| Khayyam Yousufzai | |
 | Khushal Khan Khattak | 4257 |
 | Matiullah Turab | 1192 |
 | Mumtaz Orakazi | 1645 |
@@ -44,6 +47,8 @@ This repository contains the final project for the course `CS/CE 316/365 Introdu
 | Rahman Baba | 2202 |
 | Rehmat Shah | 1534 |
 | Sahib Shah Sabir | 1051 |
+| Shabbir Khan Durrani | 1056 |
+| Shakir Orakzai | 569 |
 | Salim Riaz | 232 |
 
 **Total Couplets: 22426**
