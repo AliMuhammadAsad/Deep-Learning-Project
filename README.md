@@ -27,29 +27,29 @@ This repository contains the final project for the course `CS/CE 316/365 Introdu
 
 | **No.** | **Poet** | **Couplet Count** |
 | --- | --- | --- |
-| Abbasin Yousuf | 1875 |
-| Ajmal Khattak | 780 |
-| Allama Abdul Hai | 2380 |
-| Aziz Mazerwal | 30 |
-| Ghani Khan | 1399 |
-| Hamza Baba | 1177 |
-| Javed Ahmedzai | 561 |
-| Karan Khan | 979 |
-| Khaliq Ziari | 40 |
-| Khatir Afridi | 1436 |
-| Khayyam Yousufzai | |
-| Khushal Khan Khattak | 4257 |
-| Matiullah Turab | 1192 |
-| Mumtaz Orakazi | 1645 |
-| Munir Jan | 1169 |
-| Naeem Ahmed | 856 |
-| Rabia Mumtaz | 572 |
-| Rahman Baba | 2202 |
-| Rehmat Shah | 1534 |
-| Sahib Shah Sabir | 1051 |
-| Shabbir Khan Durrani | 1056 |
-| Shakir Orakzai | 569 |
-| Salim Riaz | 232 |
+| 1 | Abbasin Yousuf | 1875 |
+| 2 | Ajmal Khattak | 780 |
+| 3 | Allama Abdul Hai | 2380 |
+| 4 | Aziz Mazerwal | 30 |
+| 5 | Ghani Khan | 1399 |
+| 6 | Hamza Baba | 1177 |
+| 7 | Javed Ahmedzai | 561 |
+| 8 | Karan Khan | 979 |
+| 9 | Khaliq Ziari | 40 |
+| 10 | Khatir Afridi | 1436 |
+| 11 | Khayyam Yousufzai | |
+| 12 | Khushal Khan Khattak | 4257 |
+| 13 | Matiullah Turab | 1192 |
+| 14 | Mumtaz Orakazi | 1645 |
+| 15 | Munir Jan | 1169 |
+| 16 | Naeem Ahmed | 856 |
+| 17 | Rabia Mumtaz | 572 |
+| 18 | Rahman Baba | 2202 |
+| 19 | Rehmat Shah | 1534 |
+| 20 | Sahib Shah Sabir | 1051 |
+| 21 | Shabbir Khan Durrani | 1056 |
+| 22 | Shakir Orakzai | 569 |
+| 23 | Salim Riaz | 232 |
 
 **Total Couplets: 26992**
 
