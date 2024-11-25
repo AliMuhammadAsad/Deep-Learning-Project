@@ -2,24 +2,6 @@
 
 In this section we explore and discuss the results of our experiments with the machine learning, deep learning, and transformer models for Pashto poetry classification. We present the results of our experiments in the following subsections. 
 
-The results can be summarized by the following table:
-
-\begin{table}[ht]
-    \centering
-    \begin{tabular}{|l|c|}
-        \hline
-        \textbf{Model} & \textbf{Accuracy} \\
-        \hline
-        Logistic Regression & 62.88\% \\
-        Support Vector Machine & 61.92\% \\
-        Random Forest & 51.93\% \\
-        XGBoost & 41.67\% \\
-        \hline
-    \end{tabular}
-    \caption{Table of Results}
-    \label{tab:results}
-\end{table}
-
 \subsection{Machine Learning Models}
 
 This subsection presents the results of our experiments with the machine learning models. We used the following machine learning models for our experiments: Random Forest, Support Vector Machine, Logistic Regression, and XGBoost. The dataset was divided into 21844 samples for training, and 5465 samples for testing. The models were trained on an 8 Core, 4.90 GHz Intel Core i7-12700 CPU with 16GB RAM. 
@@ -57,11 +39,32 @@ Our best hyperparameters for XGBoost were 100 estimators, a learning rate of 0.1
 This subsection presents the results of our experiments with the deep learning models. We used the following deep learning models for our experiments: LSTM and Bi-LSTM. The dataset was divided into 19111 samples for training, 2727 samples for validation, and 5471 samples for testing. They were trained on 2 Tesla T4 GPUs available on Kaggle, with Kaggle's 29GB RAM. 
 
 \subsubsection{LSTM}
-We experimented with various layers, and hyperparameters for LSTM including Bi-LSTM layers as well. The models were trained on 20 Epochs, with early stopping enabled. We experimented with a simple LSTM model with 2 LSTM layers of 128 and 64 units, respectively. We also added 2 dropout layers, and a dense layer with 64 units. The model was overfitting the training data, hence we continued with different parameters including compiling with an Adam Optimizer with a learning rate of 0.001, and a sparse categorical cross entropy loss, but that as well overfitted. 
+We experimented with various layers, and hyperparameters for LSTM including Bi-LSTM layers as well. The models were trained on 20 Epochs, with early stopping enabled. We experimented with a simple LSTM model with 2 LSTM layers of 128 and 64 units, respectively. We also added 2 dropout layers, and a dense layer with 64 units. The model was overfitting the training data, hence we continued with different parameters including compiling with an Adam Optimizer with a learning rate of 0.001, and a sparse categorical cross entropy loss, but that as well overfitted with a poor accuracy on the validation and test sets. Our final model was a Bi-LSTM model with a Dense layer with a softmax activation function, compiled using the Adam Optimizer with a learning rate of 0.0001, sparse categorical cross entropy loss, and an early stopping layer. The model achieved an accuracy of 59.63\% on the test set. The plots and confusion matrix for the Bi-LSTM Model are shown as follows:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{dl_lstm_trainloss.png}
+    \caption{Training Loss for LSTM Model}
+    \label{fig:dl_lstm_trainloss}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{dl_lstm_trainaccuracy.png}
+    \caption{Training Accuracy for LSTM Model}
+    \label{fig:dl_lstm_trainaccuracy}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{dl_lstm_confmat.png}
+    \caption{Confusion Matrix for LSTM Model}
+    \label{fig:dl_lstm_confmat}
+\end{figure}
 
 \subsection{Transformer Models}
 
-This subsection presents the results of our experiments with the transformer models. We used the following transformer models for our experiments: BERT, roBERTa, DistilBERT, and Meta Llama-3.2-1b. The embeddings were split into <> samples for training, <> samples for validation, and <> samples for testing. They were trained on 2 Tesla T4 GPUs available on Kaggle, with Kaggle's 29GB RAM.
+This subsection presents the results of our experiments with the transformer models. We used the following transformer models for our experiments: roBERTa, DistilBERT, and Meta Llama-3.2-1b. The embeddings generated were trained on 2 Tesla T4 GPUs available on Kaggle, with Kaggle's 29GB RAM.
 
 \subsubsection{roBERTa}
 
@@ -69,9 +72,51 @@ This subsection presents the results of our experiments with the transformer mod
 
 \subsubsection{Meta Llama-3.2-1b}
 
+The Meta Llama 3.2 1b parameter model was trained on 20 epochs, with a batch size of 8, learning rate of 0.001, the Adam optimizer, and cross entropy loss function, with an early stopping. The model only achieved an accuracy of 48.88\%. The plots and confusion matrix for the Meta Llama-3.2-1b Model are shown as follows:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{llama_trainloss.png}
+    \caption{Training Loss for Meta Llama-3.2-1b Model}
+    \label{fig:llama_trainloss}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{llama_trainaccuracy.png}
+    \caption{Training Accuracy for Meta Llama-3.2-1b Model}
+    \label{fig:llama_trainaccuracy}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{llama_confmat.png}
+    \caption{Confusion Matrix for Meta Llama-3.2-1b Model}
+    \label{fig:llama_confmat}
+\end{figure}
+
 
 \subsection{Summary of Results}
 
 This subsection presents a summary of the results of our experiments with the machine learning, deep learning, and transformer models for Pashto poetry classification.
+
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{|l|c|}
+        \hline
+        \textbf{Model} & \textbf{Accuracy} \\
+        \hline
+        Logistic Regression & 62.88\% \\
+        Support Vector Machine & 61.92\% \\
+        Bi-LSTM & 59.63\% \\
+        Random Forest & 51.93\% \\
+        Meta Llama-3.2-1b & 48.88\% \\
+        XGBoost & 41.67\% \\
+        \hline
+    \end{tabular}
+    \caption{Table of Results}
+    \label{tab:results}
+\end{table}
+
 
 
