@@ -95,6 +95,29 @@ The Meta Llama 3.2 1b parameter model was trained on 20 epochs, with a batch siz
     \label{fig:llama_confmat}
 \end{figure}
 
+\subsection{Bert Based Multilingual Uncased}
+As above, the model was trained on 20 epochs, with a batch size of 8, learning rate of 0.001, the Adam optimizer, and cross entropy loss function, with an early stopping. The model only achieved an accuracy of 45.61\%. The plots and confusion matrix for the Bert Based Multilingual Uncased Model are shown as follows:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{bbmu_confmat.png}
+    \caption{Confusion Matrix for Bert Based Multilingual Uncased Model}
+    \label{fig:bbmu_confmat}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{bbmu_trainloss.png}
+    \caption{Training Loss for Bert Based Multilingual Uncased Model}
+    \label{fig:bbmu_trainloss}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{bbmu_trainaccuracy.png}
+    \caption{Training Accuracy for Bert Based Multilingual Uncased Model}
+    \label{fig:bbmu_trainaccuracy}
+\end{figure}
 
 \subsection{Summary of Results}
 
@@ -111,12 +134,14 @@ This subsection presents a summary of the results of our experiments with the ma
         Bi-LSTM & 59.63\% \\
         Random Forest & 51.93\% \\
         Meta Llama-3.2-1b & 48.88\% \\
+        Bert Based Multilingual Uncased & 45.61\% \\
         XGBoost & 41.67\% \\
         \hline
     \end{tabular}
     \caption{Table of Results}
     \label{tab:results}
 \end{table}
+
 
 
 
