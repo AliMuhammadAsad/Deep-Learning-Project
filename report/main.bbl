@@ -1,0 +1,45 @@
+\begin{thebibliography}{10}
+
+\bibitem{ciawordlfactbook}
+C.~W. Factbook, ``Afghanistan.'' \url{https://www.cia.gov/the-world-factbook/countries/afghanistan/}, 2024.
+
+\bibitem{pbs}
+P.~B. of~Statistics, ``Population by mother tongue.'' \url{https://web.archive.org/web/20220409115251/https://www.pbs.gov.pk/sites/default/files//population_census/census_2017_tables/pakistan/Table11n.pdf}, 2021.
+
+\bibitem{history_pashto}
+A.~Aziz, ``A brief history of pashto literature,'' {\em Journal of Emerging Technologies and Innovative Research}, vol.~6, no.~6, 2019.
+
+\bibitem{fatimarazapunjabipoetry}
+F.~Tariq, R.~Gopchandani, R.~H. Nizamani, A.~Samad, and M.~M. Anwar, ``Deep learning based poet attribution model for punjabi poetry,'' in {\em 2024 International Conference on Emerging Trends in Smart Technologies (ICETST)}, pp.~1--6, 2024.
+
+\bibitem{fizza_iqra_urdu_attribution}
+I.~Siddiqui, F.~Rubab, H.~Siddiqui, and A.~Samad, ``Poet attribution of urdu ghazals using deep learning,'' in {\em 2023 3rd International Conference on Artificial Intelligence (ICAI)}, pp.~196--203, 2023.
+
+\bibitem{sandypaper}
+S.~Fahim, I.~Siddiqui, S.~Pervez, S.~Kumar, F.~Alvi, and A.~Samad, ``Generation of urdu ghazals using deep learning,'' in {\em 2023 International Conference on Frontiers of Information Technology (FIT)}, pp.~280--285, 2023.
+
+\bibitem{shayanshafaqmusicclassification}
+S.~F. Mughal, S.~Aamir, S.~A. Sahto, and A.~Samad, ``Urdu music genre classification using convolution neural networks,'' in {\em 2022 International Conference on Emerging Trends in Smart Technologies (ICETST)}, pp.~1--6, 2022.
+
+\bibitem{persian_poetry_classification}
+J.~F. Ruma, S.~Akter, J.~J. Laboni, and R.~M. Rahman, ``A deep learning classification model for persian hafez poetry based on the poet’s era,'' {\em Decision Analytics Journal}, vol.~4, p.~100111, 2022.
+
+\bibitem{gujrati_poetry_attribution}
+B.~Mehta and B.~Rajyagor, ``Gujarati poetry classification based on emotions using deep learning,'' {\em International Journal of Engineering Applied Sciences and Technology}, vol.~6, 05 2021.
+
+\bibitem{urdu_poet_attribution_kiet}
+T.~Ahmed and A.~Rao, ``Poet attribution for urdu: Finding optimal configuration for short text,'' {\em Poet attribution for urdu: Finding optimal configuration for short text}, vol.~4, 2021.
+
+\bibitem{urdu_authorship_attribution}
+M.~Dar, ``Authorship attribution in urdu poetry,'' 06 2020.
+
+\bibitem{urdu_ghazal_svm}
+N.~Tariq, I.~Ejaz, M.~K. Malik, Z.~Nawaz, and F.~Bukhari, ``Idenitification of urdu ghazal poets using svm,'' {\em Mehran University Research Journal of Engineering and Technology}, vol.~38, no.~4, 2019.
+
+\bibitem{arabic_poetry_attribution}
+A.~Al-falahi, M.~Ramdani, and M.~Bellafkih, ``Machine learning for authorship attribution in arabic poetry,'' {\em International Journal of Future Computer and Communication}, vol.~6, pp.~42--46, 01 2017.
+
+\bibitem{pashto_text_classification}
+J.~Baktash and M.~Dawodi, ``Enhancing pashto text classification using language processing techniques for single and multi-label analysis,'' 05 2023.
+
+\end{thebibliography}
